@@ -101,7 +101,7 @@ function! MoveLinesVisual(direction) range
 
     if (direction ==? "u" && a:firstline == 1) 
         \ || (direction ==? "d" && a:lastline == line("$"))
-        exec "normal v" . d . "\<CR>$"
+        exec "normal v" . d . "\<CR>gv$"
         return 0
     endif
 
