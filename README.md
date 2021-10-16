@@ -14,13 +14,15 @@ For virtual mode call `MoveLinesVisual(direcion)`.
 In the .vimrc file insert following lines to map keys,
 I am using Alt+[cursor key]:
 
-```nnoremap <silent> <A-k> :call MoveLineNormal("u")<CR>
+```
+nnoremap <silent> <A-k> :call MoveLineNormal("u")<CR>
 nnoremap <silent> <A-j> :call MoveLineNormal("d")<CR>
 nnoremap <silent> <A-h> :call MoveLineNormal("l")<CR>
 nnoremap <silent> <A-l> :call MoveLineNormal("r")<CR>
 ```
 
-```xnoremap <silent> <A-k> :call MoveLinesVisual("Up")<CR>
+```
+xnoremap <silent> <A-k> :call MoveLinesVisual("Up")<CR>
 xnoremap <silent> <A-h> :call MoveLinesVisual("left")<CR>
 xnoremap <silent> <A-l> :call MoveLinesVisual("Right")<CR>
 xnoremap <silent> <A-j> :call MoveLinesVisual("down")<CR>
