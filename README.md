@@ -4,7 +4,10 @@ Vim plugin for moving lines in normal and visual mode.
 
 ### Installation
 
-Copy `movelines.vim` into `~/.vim/plugin` or `$HOME/vimfiles/plugin` directory.
+If you use vim-plug add Plug to your config
+`Plug 'krcs/vim-movelines'`
+
+Or just copy `movelines.vim` into `~/.vim/plugin` or `$HOME/vimfiles/plugin` directory.
 
 For normal mode call `MoveLineNormal(direction)`.
 For virtual mode call `MoveLinesVisual(direcion)`.
@@ -40,6 +43,3 @@ xnoremap <silent> <A-j> :call MoveLinesVisual("down")<CR>
 
 ### License
 Same as Vim. See `:h license`
-
-
-
