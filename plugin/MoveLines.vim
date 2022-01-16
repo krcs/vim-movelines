@@ -1,6 +1,6 @@
 " Vim plugin for moving lines in normal and visual mode.
 " Last Change: 2021-05-29 
-" Maintainer: Krzysztof Cieslak <https://github.com/krcs/movelines.vim>
+" Maintainer: Krzysztof Cieslak <https://github.com/krcs/vim-movelines.git>
 " License: VIM
 " :h license
 " 
